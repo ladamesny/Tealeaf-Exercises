@@ -3,7 +3,7 @@ def check_num number
 	answer = case
 
 	when number < 0
-		"Sorry, can only computer positive numbers"
+		"Sorry, can only compute positive numbers"
 	when (number >= 0) && (number < 51)
 		"Number is between 0 and 50"
 	when (number > 50) && (number < 101)
