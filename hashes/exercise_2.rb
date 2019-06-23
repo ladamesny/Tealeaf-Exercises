@@ -1,0 +1,3 @@
+2. Look at Ruby's merge method. Notice that it has two versions. What is the difference between merge and merge!? Write a program that uses both and illustrate the differences.
+
+The `merge` method without the bang will not mutate the caller. Instead, it returns a new hash object where the hash of the caller and that of the argument passed into the `merge` method are combined. If `merge!` was called instead, then the caller would be mutated and result in the combined hash object.
